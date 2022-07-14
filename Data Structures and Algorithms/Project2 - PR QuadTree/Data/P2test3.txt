@@ -1,0 +1,50 @@
+insert p_p          1 20
+  insert p1        20 30
+  insert p2        30 40
+  insert p3        40 50
+  insert p4        50 60
+  insert p5        60 70
+  insert p6        70 80
+  insert p7        10 30
+  insert p8        100 130
+  insert p9        200 230
+  insert p9_1        200 30
+  insert p10        310 330
+  insert p11        410 430
+  insert p12        510 530
+  insert p13        610 630
+  insert p13        610 30
+  insert p14        710 730
+  insert p15        910 930
+  insert p16        810 830
+  insert p_42   1 20
+  
+  insert far_point  200 200
+
+
+
+
+regionsearch   0 0 25 25
+remove p_p
+remove 10 30
+
+remove p13
+remove p14
+remove p15
+remove p16
+remove p1
+remove p2
+remove p3
+remove p7
+remove p8
+remove p9
+remove p10
+remove p11
+remove p12
+remove p4
+remove p5
+remove p6
+
+
+
+
