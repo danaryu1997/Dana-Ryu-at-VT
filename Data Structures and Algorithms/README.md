@@ -38,6 +38,8 @@ Return a “dump” of the Skip List. The Skip List dump should print out each S
 The PR Quadtree is a full tree such that every node is either a leaf node, or else it is an internal node with four children. As with the PR Quadtree described in OpenDSA, the four children split the parent’s corresponding square into four equal-sized quadrants. The internal nodes of the PR Quadtree do not store data. Pointers to the points themselves are stored only in the leaf nodes.
 
 
+#### Commands
+
 * `insert {name} {x} {y}`
 Insert a point named name with at the location (x, y).
 
@@ -53,7 +55,6 @@ Report all points currently in the database that are contained in the query rect
 * `duplicates`
 
 Report all points that have duplicate coordinates.
-
 
 
 * `search {name}`
